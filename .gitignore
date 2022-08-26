@@ -37,3 +37,6 @@ build-iPhoneSimulator/
 /lib/bundler/man/
 
 .rvmrc
+
+*.html
+*.xml
