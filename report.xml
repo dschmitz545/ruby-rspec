@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="20" skipped="0" failures="0" errors="0" time="0.007947" timestamp="2022-08-26T15:43:55-03:00" hostname="archlinux">
+<properties>
+<property name="seed" value="1168"/>
+</properties>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar um vingador" file="./spec/avengers_spec.rb" time="0.001494"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve adicionar uma lista de vingadores" file="./spec/avengers_spec.rb" time="0.000932"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Thor deve ser o primeiro da Lista" file="./spec/avengers_spec.rb" time="0.000470"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter Hulk deve ser o ultimo da Lista" file="./spec/avengers_spec.rb" time="0.000060"></testcase>
+<testcase classname="spec.avengers_spec" name="AvengersHeadQuarter deve conter o sobrenome" file="./spec/avengers_spec.rb" time="0.000485"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico quando o valor é positivo então atualiza saldo, sobrando R$800.00" file="./spec/bank/saque_corrente_spec.rb" time="0.000058"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico não tenho saldo então exibe a mensagem &quot;Saldo insuficiente para saque&quot;" file="./spec/bank/saque_corrente_spec.rb" time="0.000052"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico não tenho saldo e o saldo final deve ser R$0.00" file="./spec/bank/saque_corrente_spec.rb" time="0.000048"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico Tenho saldo mas não o suficiente então exibe a mensagem &quot;Saldo insuficiente para saque&quot;" file="./spec/bank/saque_corrente_spec.rb" time="0.000060"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico Tenho saldo mas não o suficiente e o saldo permanece R$500.00" file="./spec/bank/saque_corrente_spec.rb" time="0.000048"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico quando ultrapassa o limite de saque então exibe mensagem &quot;Limite máximo por saque é de R$700.00&quot;" file="./spec/bank/saque_corrente_spec.rb" time="0.000048"></testcase>
+<testcase classname="spec.bank.saque_corrente_spec" name="ContaCorrente Saque no Caixa Eletrônico quando ultrapassa o limite de saque meu saldo final deve ser R$1000.00" file="./spec/bank/saque_corrente_spec.rb" time="0.000059"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico quando o valor é positivo então atualiza saldo, sobrando R$800.00" file="./spec/bank/saque_poupanca_spec.rb" time="0.001597"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico não tenho saldo então exibe a mensagem &quot;Saldo insuficiente para saque&quot;" file="./spec/bank/saque_poupanca_spec.rb" time="0.000055"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico não tenho saldo e o saldo final deve ser R$0.00" file="./spec/bank/saque_poupanca_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico Tenho saldo mas não o suficiente então exibe a mensagem &quot;Saldo insuficiente para saque&quot;" file="./spec/bank/saque_poupanca_spec.rb" time="0.000049"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico Tenho saldo mas não o suficiente e o saldo permanece R$500.00" file="./spec/bank/saque_poupanca_spec.rb" time="0.000047"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico quando ultrapassa o limite de saque então exibe mensagem &quot;Limite máximo por saque é de R$500.00&quot;" file="./spec/bank/saque_poupanca_spec.rb" time="0.000050"></testcase>
+<testcase classname="spec.bank.saque_poupanca_spec" name="ContaPoupanca Saque no Caixa Eletrônico quando ultrapassa o limite de saque meu saldo final deve ser R$1000.00" file="./spec/bank/saque_poupanca_spec.rb" time="0.000046"></testcase>
+<testcase classname="spec.exemplo_spec" name="suite rspec soma de valores" file="./spec/exemplo_spec.rb" time="0.000045"></testcase>
+</testsuite>
